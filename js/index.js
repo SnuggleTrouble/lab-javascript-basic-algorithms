@@ -16,6 +16,8 @@ if (hacker1.length > hacker2.length) {
 
 // Iteration 3: Loops
 // 3.1:
+let cappedName = hacker1.toUpperCase();
+console.log(cappedName);
 
 // 3.2:
 
