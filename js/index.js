@@ -16,10 +16,12 @@ if (hacker1.length > hacker2.length) {
 
 // Iteration 3: Loops
 // 3.1:
-let cappedName = hacker1.toUpperCase();
+let cappedName = hacker1.toUpperCase().split("").join(" ");
 console.log(cappedName);
 
 // 3.2:
+let reversedName = hacker2.split("").reverse().join("");
+console.log(reversedName);
 
 // 3.3:
 
