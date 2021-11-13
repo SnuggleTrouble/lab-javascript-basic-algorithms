@@ -22,6 +22,15 @@ console.log(cappedName);
 // 3.2:
 let reversedName = hacker2.split("").reverse().join("");
 console.log(reversedName);
+// Alternatively
+function reverseName(name) {
+    let nameBackward = "";
+    for (let i = name.length - 1; i >= 0; i--) {
+        nameBackward += name[i];
+    }
+    return nameBackward;
+}
+console.log(reverseName(hacker2));
 
 // 3.3:
 
